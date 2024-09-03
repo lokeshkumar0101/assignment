@@ -1,8 +1,8 @@
 import React from "react"
+import { BiLinkExternal } from "react-icons/bi";
 import Socials from './Components/Socials.jsx'
 import Intro from "./Components/Intro.jsx"
 import Gallery from "./Components/Gallery.jsx"
-import { HiOutlineExternalLink } from "react-icons/hi";
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
         <h3 className="text-2xl text-white font-bold mb-5 underline">Lokesh Kumar</h3>
         <Socials />
         <button onClick={handleClick}
-          className="py-2 mt-4 px-4 flex justify-center items-center bg-black text-white text-sm font-bold rounded-2xl gap-2 hover:scale-105 hover:shadow-2xl hover:shadow-white active:scale-95 ease-in-out duration-100">Go to Website
-          <HiOutlineExternalLink size={24} />
+          className="py-3 mt-4 px-4 flex justify-center items-center bg-black text-white text-sm font-bold rounded-2xl gap-2 hover:scale-105 hover:shadow-2xl hover:shadow-white active:scale-95 ease-in-out duration-100">Go to Website
+          <BiLinkExternal size={20} />
         </button>
       </div>
       <div className="h-full w-[60%] flex flex-col justify-center items-center gap-y-5">
